@@ -1,0 +1,34 @@
+{
+  "name": "type-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tsx watch src/server.ts"
+  },
+  "keywords": [],
+  "author": "Matheus Vinicius",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@biomejs/biome": "2.0.6",
+    "@types/node": "^22.15.30",
+    "prisma": "^6.9.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "yarn@1.22.22+sha512.a6b2f7906b721bba3d67d4aff083df04dad64c399707841b7acf00f6b133b7ac24255f2652fa22ae3534329dc6180534e98d17432037ff6fd140556e2bb3137e",
+  "dependencies": {
+    "@fastify/cors": "^11.0.1",
+    "@prisma/client": "^6.9.0",
+    "dayjs": "^1.11.13",
+    "dotenv": "^16.5.0",
+    "fastify": "^5.3.3",
+    "firebase": "^12.0.0",
+    "firebase-admin": "^13.4.0",
+    "mongodb": "^6.17.0",
+    "zod": "^3.25.63",
+    "zod-to-json-schema": "^3.24.5"
+  }
+}
